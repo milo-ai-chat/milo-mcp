@@ -1,0 +1,7 @@
+src/
+*.log
+.env
+.env.*
+.DS_Store
+k8s/
+tsconfig.json
