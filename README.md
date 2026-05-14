@@ -94,6 +94,14 @@ GET https://mcp.miloai.chat/.well-known/oauth-authorization-server
 
 ## Self-hosting
 
+Run with npx:
+
+```bash
+MILO_API_URL=https://api.miloai.chat PUBLIC_URL=https://mcp.your-org.com npx milo-mcp
+```
+
+Or with Docker:
+
 ```bash
 docker run -p 3100:3100 \
   -e MILO_API_URL=https://api.miloai.chat \
